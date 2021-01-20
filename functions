@@ -30,3 +30,49 @@ list_length = len(my_list)
 # else true:
     #pass # de implementat o noua instructiune
 
+# functii: def name (parametrii)
+# def sum_nr(a,b):
+#     return a+b # se foloseste daca functia intoarce un rezultat
+# #apelare functii
+# my_sum = sum_nr(5,7)
+# print(my_sum)
+#
+# def compare_nr(a,b): #conteaza ordinea parametrilor
+#     return a<b
+# comp= compare_nr(5,7)
+# print(comp)
+#
+# def view_sum(a,b):
+#     print(f'sum of {a} and {b} is: ', a+b)
+#
+# view_sum(5,7)
+# # dupa return se iese din functie
+# #parametrii pozitionali obligatorii (a,b); primii in lista de arg
+# #parametrii key:value
+#
+# def sum_2(a,b,c=0, d=0): #c=0 este param key:value
+#     return a+b+c+d
+#
+# print(sum_2(5,7))
+# print(sum_2(5,7,10))
+# print(sum_2(5,7,c=10,d=16))
+# print(sum_2(5,7,d=16,c=10))
+#
+# #+args,++kwargs nr infinit de arg
+def sum_3(+args, ++kwargs):
+    print(args)
+
+sum_3()
+sum_3(1,2)
+sum_3(1,2,3)
+sum_3(1,2,3,4)
+
+#recursivitate
+
+def recurs (n):
+    #stop condition
+    if n==0 :
+        return 0
+    #recursive apel
+    return n + recurs(n-1)
+
