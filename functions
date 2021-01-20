@@ -1,0 +1,32 @@
+my_list=[1,2,3,4]
+list_length = len(my_list)
+# if list_length % 2 == 0:
+#     print('lista are nr par de elem')
+# else:
+#     print('lista are nr impar de elem')
+
+# index=0
+# while index<list_length:
+#     element=my_list[index]
+#     if element%2 == 0:
+#         print('element par', element)
+#         index+=1 #index =index +1
+
+# for element in my_list:
+#     if element%2 ==0:
+#         print('elemnt par')
+#     else:
+#         print('elemnt impar')
+#
+# print('tupluri', enumerate(my_list))# intoarce tupluri combinatie index valoare
+# if len(my_list)%2 !=0
+#     pass #instr speciala care nu face nimic doar pentru a trece mai departe
+#
+# else
+#     print('event')
+#
+# if cond:
+    #instr
+# else true:
+    #pass # de implementat o noua instructiune
+
