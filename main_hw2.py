@@ -61,14 +61,14 @@ print(ret_int())
 
 # solutia D-ului Botond: am inteles-o dar nu as fi reusit sa o fac
 # am pastrat si nr initial
+
 def tup_sum(n, s=0, p=0, i=0):
 
     if n == 0:
         return 0, s, p, i
-    else:
-        if n % 2 == 0:
+    if n % 2 == 0:
             p = p + n
-        else:
+    else:
             i = i + n
 
     rez = tup_sum(n-1, s, p, i)
