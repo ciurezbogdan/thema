@@ -70,7 +70,6 @@ def tup_sum(n, s=0, p=0, i=0):
             p = p + n
     else:
             i = i + n
-
     rez = tup_sum(n-1, s, p, i)
     s = n+rez[1]
     p = rez[2]
